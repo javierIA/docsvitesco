@@ -15,7 +15,6 @@ jobs:
 
     - name: Deploy to GitHub Pages
       run: |
-        git checkout main  # Cambia esto a tu rama GitHub Pages
         git add .
         git commit -m "Deployed website from GitHub Actions"
         git push
