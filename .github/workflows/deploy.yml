@@ -16,7 +16,7 @@ jobs:
     - name: Deploy to GitHub Pages
       run: |
         git checkout gh-pages  # Cambia esto a tu rama GitHub Pages
-        cp -r * .git/ /path/to/your/html/files
+        cp -r * .git/ /path/to/your/html/files  # Copia tus archivos HTML estáticos a la ubicación correcta
         git add .
         git commit -m "Deployed website from GitHub Actions"
         git push
