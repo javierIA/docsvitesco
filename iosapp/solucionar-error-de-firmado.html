@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Solucionar Error de Firmado </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Solucionar Error de Firmado ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.jpg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h2 id="solucionar-error-de-firmado">Solucionar Error de Firmado</h2>
+
+<p>Cuando trabajas con aplicaciones iOS, es común encontrar errores relacionados con el firmado de la aplicación. Estos errores están generalmente relacionados con los certificados y perfiles de aprovisionamiento de Apple.</p>
+<h3 id="pasos-para-solucionar-errores-de-firmado">Pasos para solucionar errores de firmado:</h3>
+<ol>
+<li><strong>Abrir Xcode</strong>: Navega a la carpeta del proyecto <code>VitescoPushClean</code> y abre el archivo <code>.xcworkspace</code> en Xcode.</li>
+<li><strong>Seleccionar el target</strong>: En la esquina superior izquierda, selecciona el target de tu aplicación.</li>
+<li><strong>Ir a la pestaña 'Signing &amp; Capabilities'</strong>: Aquí, asegúrate de que estás utilizando un equipo de desarrollo válido. Si no tienes un equipo de desarrollo, es posible que necesites iniciar sesión con tu ID de Apple.</li>
+<li><strong>Seleccionar un perfil de aprovisionamiento</strong>: Si ves un mensaje de error aquí, es probable que no tengas un perfil de aprovisionamiento válido. Haz clic en &quot;Fix Issue&quot; y Xcode intentará resolver el problema automáticamente.</li>
+<li><strong>Revisar el bundle identifier</strong>: Asegúrate de que el bundle identifier sea único. Si estás usando un bundle identifier que ya ha sido utilizado, deberás cambiarlo a uno único.</li>
+<li><strong>Compilar y ejecutar</strong>: Una vez que hayas realizado los pasos anteriores, intenta compilar y ejecutar tu aplicación nuevamente desde Flutter o Xcode.</li>
+</ol>
+<p>Si sigues teniendo problemas, te recomendaría consultar la <a href="https://developer.apple.com/documentation/xcode/signing-your-app">documentación oficial de Apple</a> sobre firmado y aprovisionamiento.</p>
+<hr>
+<p>Con estos pasos, deberías tener una comprensión más clara sobre cómo funciona la función específica y cómo resolver problemas comunes de firmado en iOS.</p>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

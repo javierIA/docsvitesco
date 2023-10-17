@@ -1,0 +1,476 @@
+{
+  "source_base_path": "C:/Users/JavierFloresFlores/source/repos/javierIA/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Auth.Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Auth.Token.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Auth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Auth.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Controllers.DevicesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Controllers.DevicesController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Controllers.LogsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Controllers.LogsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Controllers.NotificationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Controllers.NotificationController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Controllers.UsersController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Controllers.UsersController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Controllers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Migrations.AUTHfilds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Migrations.AUTHfilds.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Migrations.CreateLogsDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Migrations.CreateLogsDevice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Migrations.CreateLogsTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Migrations.CreateLogsTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Migrations.Fields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Migrations.Fields.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Migrations.firstMigrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Migrations.firstMigrations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Migrations.loquesea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Migrations.loquesea.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Migrations.morespace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Migrations.morespace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Migrations.morespace2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Migrations.morespace2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Migrations.morespace2AQ.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Migrations.morespace2AQ.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Migrations.updateDivice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Migrations.updateDivice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Migrations.updateDivicei.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Migrations.updateDivicei.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Migrations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Models.Dtos.CreateDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Models.Dtos.CreateDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Models.Dtos.CreateDeviceDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Models.Dtos.CreateDeviceDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Models.Dtos.DeviceDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Models.Dtos.DeviceDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Models.Dtos.DeviceIDDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Models.Dtos.DeviceIDDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Models.Dtos.LogIDDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Models.Dtos.LogIDDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Models.Dtos.LoginDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Models.Dtos.LoginDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Models.Dtos.LogsDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Models.Dtos.LogsDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Models.Dtos.UserDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Models.Dtos.UserDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Models.Dtos.UserIDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Models.Dtos.UserIDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.Models.Dtos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.Models.Dtos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.data.database.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.data.database.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.models.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.models.Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.models.Log.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.models.Log.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.models.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.models.User.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiPushNotification.models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiPushNotification.models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/vitesco.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/vitesco.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "iosapp/flutter/static-assets/readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "iosapp/flutter/static-assets/readme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "iosapp/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "iosapp/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "invalid-yaml-header"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "iosapp/solucionar-error-de-firmado.md",
+      "output": {
+        ".html": {
+          "relative_path": "iosapp/solucionar-error-de-firmado.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "iosapp/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "iosapp/toc.html"
+        },
+        ".json": {
+          "relative_path": "iosapp/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

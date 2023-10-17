@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Instalaci&#243;n del Proyecto en Minimal API </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Instalaci&#243;n del Proyecto en Minimal API ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.jpg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="instalación-del-proyecto-en-minimal-api">Instalación del Proyecto en Minimal API</h1>
+
+<p>La Minimal API es una característica reciente de ASP.NET Core que permite crear APIs web con una sintaxis más concisa y minimalista. Si deseas instalar y ejecutar el proyecto usando Minimal API, sigue los pasos a continuación:</p>
+<hr>
+<h2 id="requisitos-previos">Requisitos Previos</h2>
+<ol>
+<li><p><strong>.NET SDK</strong>: Debes tener instalado el SDK de .NET 6 o posterior.</p>
+<ul>
+<li>Puedes verificar la versión instalada con el comando:
+<pre><code>dotnet --version
+</code></pre>
+</li>
+<li>Si no lo tienes instalado, descárgalo desde el <a href="https://dotnet.microsoft.com/download/dotnet/6.0">sitio oficial de .NET</a>.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="paso-1-clonar-el-repositorio">Paso 1: Clonar el Repositorio</h2>
+<ol>
+<li>Abre tu terminal o línea de comandos.</li>
+<li>Navega al directorio donde deseas clonar el proyecto.</li>
+<li>Utiliza el siguiente comando para clonar el repositorio:
+<pre><code>git clone URL_DEL_REPOSITORIO
+</code></pre>
+</li>
+</ol>
+<hr>
+<h2 id="paso-2-navegar-a-la-carpeta-del-proyecto">Paso 2: Navegar a la Carpeta del Proyecto</h2>
+<ol>
+<li>Una vez clonado el repositorio, navega a la carpeta del proyecto con el comando:
+<pre><code>cd NOMBRE_DE_LA_CARPETA_DEL_PROYECTO
+</code></pre>
+</li>
+</ol>
+<hr>
+<h2 id="paso-3-instalar-las-dependencias">Paso 3: Instalar las Dependencias</h2>
+<ol>
+<li>Si el proyecto utiliza un archivo <code>NuGet.Config</code> o tiene dependencias adicionales, puedes restaurarlas usando:
+<pre><code>dotnet restore
+</code></pre>
+</li>
+</ol>
+<hr>
+<h2 id="paso-4-ejecutar-la-aplicación">Paso 4: Ejecutar la Aplicación</h2>
+<ol>
+<li><p>Con todo listo, ejecuta la aplicación con el comando:</p>
+<pre><code>dotnet run
+</code></pre>
+</li>
+<li><p>Una vez que la aplicación esté ejecutándose, deberías ver un mensaje indicando que el servidor está escuchando, algo así como:</p>
+<pre><code>Now listening on: http://localhost:5000
+</code></pre>
+</li>
+<li><p>Abre un navegador y ve a <code>http://localhost:5000</code> para acceder a la aplicación.</p>
+</li>
+</ol>
+<hr>
+<h2 id="paso-5-opcional-configuración-adicional">Paso 5 (Opcional): Configuración Adicional</h2>
+<p>Dependiendo del proyecto, es posible que debas realizar pasos adicionales, como configurar variables de entorno, bases de datos o servicios externos. Asegúrate de revisar cualquier documentación adicional o archivos <code>README</code> incluidos en el proyecto para obtener instrucciones específicas.</p>
+<hr>
+<h2 id="consideraciones-finales">Consideraciones Finales</h2>
+<ul>
+<li>La Minimal API es ideal para proyectos que buscan una implementación rápida y un código más limpio. Sin embargo, si tu proyecto crece considerablemente, podrías considerar migrar a una estructura más completa de MVC o Razor Pages en el futuro.</li>
+<li>Asegúrate de mantener tu proyecto actualizado con las últimas versiones de las dependencias y el SDK de .NET para aprovechar las mejoras de rendimiento y seguridad.</li>
+</ul>
+<p>Espero que esta guía te haya sido útil. ¡Buena suerte con tu proyecto en Minimal API!</p>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
